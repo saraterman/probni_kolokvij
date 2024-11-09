@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>probni kolokvij</title>
+	<link rel="stylesheet" href="stil.css"/>
+</head>
+<body>
+<table class="tablica1">
+	<tr>
+		<td>
+			<ol>
+				<li><a href="">FORMA</a></li>
+				<li><a href="#tablica">TABLICA</a></li>
+				<li><a href="#paragraf">PARAGRAF</a></li>
+				<li><a href="https://www.grf.unizg.hr/" target="_blank">GRF</a></li>
+			</ol>
+		</td>
+		
+	</tr>
+	<tr>
+		<td>
+			<h1 id="forma">FORMA</h1>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<form action="">
+				<label>Ime:</label>
+					<input type="text" name="ime" autofocus required > 
+				<label>Pin:</label>
+					<input type="password" name="pin" maxlength="4" required>
+				<label>Datum rođenja?</label>
+					<input type="date" name="rođendan">
+				<label>E-mail:</label>
+					<input type="email" name="email" placeholder="ime@domena.com" required>
+				<label>Web adresa:</label>
+					<input type="url" name="webpage" placeholder="http://grf.unizg.hr" required>
+				<label>Kolokvij:</label>
+				<fieldset>
+					<input type="radio" name="kolokvij" value="K1">
+					K1 <br>
+					<input type="radio" name="kolokvij" value="K2">
+					K2 <br>
+					<input type="radio" name="kolokvij" value="K3">
+					K3 <br>
+				</fieldset>
+				<label>Gradivo:</label>
+				<fieldset>
+					<input type="checkbox" name="gradivo" value="tablice">
+					Tablice 
+					<input type="checkbox" name="gradivo" value="forme">
+					Forme
+					<input type="checkbox" name="gradivo" value="animacija">
+					Animacija
+					<input type="checkbox" name="gradivo" value="video">
+					Video
+				</fieldset>
+				<label>Koju ocjenu očekujete?</label>
+				<input list="ocjena" name="ocjena">
+				<datalist id="ocjena">
+					<option value="odličan" name="ocjena"></option>
+					<option value="vrlo dobar" name="ocjena"></option>
+					<option value="dobar" name="ocjena"></option>
+					<option value="dovoljan" name="ocjena"></option>
+					<option value="nedovoljan" name="ocjena"></option>
+				</datalist>
+				<label>Odaberite boju</label>
+				<input type="color" name="boja" value="#DA70D6">
+				<input type="reset" value="Poništi">
+				<input type="submit" value="Prihvati">
+			</form>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<h1 id="tablica">TABLICA 2</h1>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table class="tablica2">
+		<tr id="r1">
+			<td id="žuti_dio" colspan="2" rowspan="2"></td>
+			<td id="plavi_stupac" rowspan="4"></td>
+			<td></td>
+		</tr>
+		<tr id="r2">
+			<td></td>
+		</tr>
+		<tr id="r3">
+			<td id="zeleni_stupac" rowspan="2"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr id="r4">
+			<td></td>
+			<td></td>
+		</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<h1 id="paragraf">PARAGRAF</h1>
+			<p>Jack Russell terijeri su mali, energični psi poznati po svojoj hrabrosti, inteligenciji i neiscrpnoj energiji. Nastali su u Engleskoj u 19. stoljeću zahvaljujući pastoru Johnu Russellu,
+				koji je želio razviti pasminu za lov na lisice. Ovi psi su kompaktni, snažnog tijela i često bijele boje s crnim ili smeđim oznakama. Njihov temperament je iznimno aktivan, znatiželjan i odan,
+				što ih čini odličnim suputnicima, ali zahtijeva i puno vježbe te mentalne stimulacije.
+				Jack Russell terijeri su idealni za aktivne obitelji ili pojedince jer uživaju u trčanju, igrama i učenju trikova. Iako su vrlo inteligentni, mogu biti tvrdoglavi, pa im je potrebna dosljedna obuka od malih nogu.
+				Zbog svoje snažne lovačke prirode, imaju naglašen instinkt za kopanjem i potjerom, što ih čini prikladnijima za život u kući s dvorištem nego u stanu. Ovi veseli psi zrače energijom i ljubavlju te su pravi prijatelji
+				za one koji im mogu pružiti pažnju i aktivnost koju trebaju.</p>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
